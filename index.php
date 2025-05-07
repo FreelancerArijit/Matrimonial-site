@@ -23,21 +23,21 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="./images/banner1.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption w-50 d-none d-md-block">
         <h5>Find Your Perfect Match, Made in Heaven.</h5>
         <p>Join thousands of Indian singles discovering love and togetherness today.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="./images/banner2.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption w-50 d-none d-md-block">
         <h5>Your Journey to a Lifetime of Happiness Begins Here.</h5>
         <p>Start meeting genuine, verified profiles tailored to your dreams.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="./images/banner4.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption w-50 d-none d-md-block">
         <h5>Where Tradition Meets Modern Love.</h5>
         <p>Create your story with trusted matches from your community and beyond.</p>
       </div>

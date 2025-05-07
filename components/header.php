@@ -120,39 +120,44 @@
 </div>
 
 <div class="container-fluid" id="login-container" 
-  style="width: 410px;
-  padding: 15px;
-  position: absolute;
-  right: 0;
-  top: 10%;
-  z-index: 5;
- background-color: #fbe9ef;
- display: none;
- border-radius: 10px;" >
-  <h3 class="text-center">Login</h3>
-  <div class="login-container">        
-        <h6 class="text-center">Already a user! Please Login</h6>
-        <form method="POST" action="#">
-            <div class="form-group">
-                <label for="email">Email ID</label>
-                <input type="text" class="form-control" id="email" name="email" placeholder="Enter Mobile no. / Email ID" required>
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" required>
-            </div>
-            <!-- <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="stayLoggedIn">
-                <label class="form-check-label" for="stayLoggedIn">Stay Logged in</label>
-            </div> -->
-            <button type="submit" class="btn btn-info btn-block" style="background-color: #c00745; border: none; ">Login</button>
-            <hr>
-            <!-- <button type="button" class="btn btn-info btn-block" style="background-color: #c00745; border: none; ">Login with OTP</button> -->
-            <p class="text-center mt-3">New to ShadiWadi? <a href="./registration.php">Register now</a></p>
-            <p class="text-center"><a href="#">Forgot Password?</a></p>
-        </form>
+    style="
+        max-width: 410px;
+        width: 90%;
+        padding: 15px;
+        position: absolute;
+        right: 10px;
+        top: 15%;
+        z-index: 1050;
+        background-color: #fbe9ef;
+        display: none;
+        border-radius: 10px;
+    ">
+    <div class="card border-0 shadow-sm p-4" style="background-color: #fbe9ef;">
+        <h3 class="text-center mb-4">Login</h3>
+
+        <div class="login-container">
+            <h6 class="text-center mb-3">Already a user? Please Login</h6>
+
+            <form method="POST" action="#">
+                <div class="form-group">
+                    <label for="email">Email ID</label>
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Enter Mobile no. / Email ID" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" required>
+                </div>
+
+                <button type="submit" class="btn btn-block text-white" style="background-color: #c00745; border: none;">Login</button>
+
+                <hr>
+
+                <p class="text-center mt-3 mb-1">New to ShadiWadi? <a href="./registration.php">Register now</a></p>
+                <p class="text-center"><a href="#">Forgot Password?</a></p>
+            </form>
+        </div>
     </div>
- 
 </div>
 
 
