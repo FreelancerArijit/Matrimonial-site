@@ -16,11 +16,17 @@
 
     <div class="card p-3 m-auto mt-5" style="max-width: 800px;">
   <div class="card-header">
-    <h3 class="text-center"> Sign Up </h3>
+    <h3 class="text-center"> Register</h3>
   </div>
   <div class="card-body pb-3">
 
     <form method="POST" novalidate>
+
+     <div class="form-group col-6">
+        <label for="images" class="form-label">Upload your profile picture here</label>
+        <input type="file"  id="name" name="profile-image" required aria-describedby="nameHelp">
+      </div>
+
       <!-- Name -->
       <div class="form-group">
         <label for="name" class="form-label">Name</label>
@@ -41,12 +47,18 @@
 
       <!-- Country -->
       <div class="form-group">
-        <label for="country" class="form-label">Country</label>
+        <label for="country" class="form-label">City</label>
         <select class="form-control" id="country" name="country" required aria-describedby="countryHelp">
-          <option value="">Select a country</option>
-          <option value="india">India</option>
-          <option value="usa">USA</option>
-          <option value="uk">UK</option>
+          <option value="">Select a city</option>
+          <option value="india">Kolkata</option>
+          <option value="usa">Delhi</option>
+          <option value="uk">Mumbai</option>
+          <option value="uk">Bangalore</option>
+          <option value="uk">Hydrabad</option>
+          <option value="uk">Chennai</option>
+          <option value="uk">Pune</option>
+          <option value="uk">Gujrat</option>
+          <option value="uk">Jaipur</option>
           <!-- Add more countries here -->
         </select>
       </div>

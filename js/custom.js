@@ -24,8 +24,6 @@ expanded_search_button.addEventListener("click", function() {
 
 
 
-
-
 document.addEventListener("DOMContentLoaded", function() {
 
     const login_button = document.querySelector("#login-btn");
@@ -41,15 +39,30 @@ document.addEventListener("DOMContentLoaded", function() {
         } else{
             login_container.style.display = "none";
         }
-    })
-    
-     document.addEventListener("click", function() {
-        console.log("document clicked");
-        login_container.style.display = "none";
-    });
-    
+    })     
+      
    
     
+}) 
+
+
+
+
+    const user_login = document.querySelector("#user-login");
+    const login_button = document.querySelector("#login-btn");
+    const login_container = document.querySelector("#login-container");
+    const user_badge = document.querySelector(".user-badge");
+
+
+    console.log(user_badge);
+
+    user_login.addEventListener("click", function(e) {
+        e.preventDefault();
+        console.log("user login clicked");
+        user_badge.style.display = "block";
+        login_container.style.display = "none";
+        login_button.style.display =  "none";
+
+
+        
     })
-    
-    

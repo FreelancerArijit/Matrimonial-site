@@ -18,7 +18,7 @@
   
   <div class="d-flex justify-content-between align-items-center mb-4">
     <h2 class="text-dark">Success Stories</h2>
-    <a href="#" class="btn theme-btn">Share Your Story</a>
+    <a href="stories.php" class="btn theme-btn">Share Your Story</a>
   </div>
 
   <div class="row pb-5">    

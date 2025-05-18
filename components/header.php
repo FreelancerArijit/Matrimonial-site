@@ -26,9 +26,9 @@
           <li class="nav-item">
             <a class="nav-link" href="./contact.php">Contact Us</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="./price.php">Pricing</a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link" href="./blog.php">Stories</a>
           </li>
@@ -45,6 +45,9 @@
         <button class="btn btn-outline-light my-2 mx-2 my-sm-0 " id="login-btn" type="button">
           Login           
         </button>
+        <div class="user-badge" style="display: none;">
+         <a href="./profile.php"> <img src="./images/user.png" alt="user" class="user-icon" style="height: 40px; width: 40px;"> </a>
+        </div>
       </div>
     </nav>   
   </div>
@@ -149,7 +152,7 @@
                     <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" required>
                 </div>
 
-                <button type="submit" class="btn btn-block text-white" style="background-color: #c00745; border: none;">Login</button>
+                <button id= "user-login" type="submit" class="btn btn-block text-white" style="background-color: #c00745; border: none;">Login</button>
 
                 <hr>
 

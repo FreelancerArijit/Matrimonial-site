@@ -157,3 +157,7 @@ body {
 #login-container.show {
   animation: slideInFromRight 0.5s ease forwards;
 }
+
+.user-badge{
+  display: none;
+}
