@@ -71,7 +71,7 @@
             </div>
         </div>
 
-        <div class="container-fluid mt-auto position-relative" style="top: 13%; background-color: #c00745; ">
+        <div class="container-fluid mt-auto position-relative" style="top: 30%; background-color: #c00745; ">
 
 
 <?php include_once('components/footer.php'); ?>
