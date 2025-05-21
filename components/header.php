@@ -122,6 +122,7 @@
   </div>
 </div>
 
+<!-- Login container -->
 <div class="container-fluid" id="login-container" 
     style="
         max-width: 410px;
@@ -156,8 +157,10 @@
 
                 <hr>
 
-                <p class="text-center mt-3 mb-1">New to ShadiWadi? <a href="./registration.php">Register now</a></p>
-                <p class="text-center"><a href="#">Forgot Password?</a></p>
+                <p class="text-center mt-3 mb-1">New to ShadiWadi? <a href="./registration.php">Create an account</a></p>
+                <p class="text-center"><a href="forgotPassword.php">Forgot Password?</a></p>
+                <p class="text-center"><a href="adminLogin.php">Log in as admin</a></p>
+
             </form>
         </div>
     </div>

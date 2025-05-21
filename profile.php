@@ -29,12 +29,7 @@
           <h4>Ronit Roy</h4>
           <p><i class="bi bi-geo-alt"></i>Kolkata, West Bengal | Age: 26</p>    
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, totam.</p>
-          <ul class="d-flex flex-wrap list-unstyled">
-          <li class="p-2 m-1 text-light rounded-sm" style="background-color: #c00745">Travelling</li>
-          <li class="p-2 m-1 text-light rounded-sm" style="background-color: #c00745">Music</li>
-          <li class="p-2 m-1 text-light rounded-sm" style="background-color: #c00745">Fashion</li>
-          <li class="p-2 m-1 text-light rounded-sm" style="background-color: #c00745">Dancing</li>
-          </ul>
+          
                
         </div>
         </div>
@@ -72,8 +67,14 @@
         </div>
         </div>
         
-      </div>     
+      </div>   
+      
+      <div class="row mt-4">
 
+      <a href="#" class="btn btn-primary mr-4" style="background-color: #c00745; border: none;">Edit profile</a>
+      <button type="submit" class="btn btn-primary  btn-block" style="width: 100px;">Logout</button>
+
+      </div>
 
     </div> 
 
@@ -107,9 +108,13 @@
           <p>Software engineer who loves traveling and reading. Looking for a kind and supportive partner.</p>
         </div>
       </div>
+
+      
    
 
     </div>
+
+    
     
     </div>
 
