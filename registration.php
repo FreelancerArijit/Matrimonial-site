@@ -27,6 +27,23 @@
         <input type="file"  id="name" name="profile-image" required aria-describedby="nameHelp">
       </div>
 
+       <fieldset class="form-group">    
+        <legend class="col-form-label pt-0">Registration for</legend>   
+        <div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="reg-for" id="bride" value="bride" required>
+            <label class="form-check-label" for="bride">Bride</label>
+          </div>
+
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="reg-for" id="groom" value="groom" required>
+            <label class="form-check-label" for="groom">groom</label>
+          </div>
+
+</div>
+</fieldset>
+
+
       <!-- Name -->
       <div class="form-group">
         <label for="name" class="form-label">Name</label>
@@ -42,23 +59,23 @@
       <!-- Mobile Number -->
       <div class="form-group">
         <label for="mobile" class="form-label">Mobile Number</label>
-        <input type="text" class="form-control" id="mobile" name="mobile" required aria-describedby="mobileHelp" placeholder="+1234567890">
+        <input type="text" class="form-control" id="mobile" name="mobile" required aria-describedby="mobileHelp" placeholder="+91 7865095896">
       </div>
 
       <!-- Country -->
       <div class="form-group">
-        <label for="country" class="form-label">City</label>
-        <select class="form-control" id="country" name="country" required aria-describedby="countryHelp">
+        <label for="city" class="form-label">City</label>
+        <select class="form-control" id="city" name="city" required aria-describedby="countryHelp">
           <option value="">Select a city</option>
-          <option value="india">Kolkata</option>
-          <option value="usa">Delhi</option>
-          <option value="uk">Mumbai</option>
-          <option value="uk">Bangalore</option>
-          <option value="uk">Hydrabad</option>
-          <option value="uk">Chennai</option>
-          <option value="uk">Pune</option>
-          <option value="uk">Gujrat</option>
-          <option value="uk">Jaipur</option>
+          <option value="kolkata">Kolkata</option>
+          <option value="delhi">Delhi</option>
+          <option value="mumbai">Mumbai</option>
+          <option value="bangalore">Bangalore</option>
+          <option value="hydrabad">Hydrabad</option>
+          <option value="chennai">Chennai</option>
+          <option value="pune">Pune</option>
+          <option value="gujrat">Gujrat</option>
+          <option value="jaipur">Jaipur</option>
           <!-- Add more countries here -->
         </select>
       </div>
@@ -139,5 +156,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>

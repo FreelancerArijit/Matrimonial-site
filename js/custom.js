@@ -66,3 +66,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
         
     })
+
+
+    function updateCount(){
+        const textarea = document.querySelector("#myTextArea");
+        const charCount = document.querySelector("#charCount");
+        let max = 50;
+        charCount.innerHTML = max - textarea.value.length;
+
+        if(textarea.value.length > max){
+            alert("Please write your  story within 50 charecters");
+        }
+
+
+    }
