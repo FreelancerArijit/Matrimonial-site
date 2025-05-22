@@ -53,8 +53,10 @@
           <ul class="list-unstyled">
             <li>Live in: <span> Kolkata </span></li>
             <li>Home town: <span> Malda </span></li>
-            <li>Work as: <span> IT Job </span></li>
+            <li>Occupation: <span> IT Job </span></li>
             <li>Education: <span> B.Tech in CSE </span></li>
+            <li>Height: <span>5.7</span> inch</li>
+
           </ul>
         </div>
         <div class="col4 p-3">
@@ -63,6 +65,8 @@
             <li>Mobile no: <span> +91 9985478952 </span></li>
             <li>E-mail: <span> ronit@gmail.com </span></li>
             <li>Religion <span> Hinduism </span></li>
+            <li>Weight: <span>67</span> kg</li>
+
           </ul>
         </div>
         </div>
@@ -71,7 +75,7 @@
       
       <div class="row mt-4">
 
-      <a href="#" class="btn btn-primary mr-4" style="background-color: #c00745; border: none;">Edit profile</a>
+      <a href="editProfile.php" class="btn btn-primary mr-4" style="background-color: #c00745; border: none;">Edit profile</a>
       <button type="submit" class="btn btn-primary  btn-block" style="width: 100px;">Logout</button>
 
       </div>
