@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* --primary-color: #c00745 !important; */
+}
+
+:root{
+  --primary-color: #c00745 !important;
+
+}
+
+html, body {
+    height: 100%;
+    /* overflow: hidden; */
+  }
+  
+#header-navbar{
+  background-color: var(--primary-color) !important;
+}
+
+.navbar{
+    background-color: var(--primary-color) !important;
+    /* color: white !important; */
+    /* position: sticky !important;
+    top: 0 !important; */
+}
+
+#search-bar{
+    transition: all 2s ease-in-out;
+}
+
+#slider-container {
+    height: 50vh; 
+    /* width: 97.8%; */
+    background-color: black;
+  }
+
+  #carouselExampleCaptions,
+  #carouselExampleCaptions .carousel-inner,
+  #carouselExampleCaptions .carousel-item {
+    height: 100%;
+  }
+
+  #carouselExampleCaptions .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+  }
+
+  .carousel-control-prev,
+.carousel-control-next {  
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+/* #process-container{
+  width: 97.8%;
+} */
+
+#footer-container{
+  position: relative;
+  bottom: 0;
+}
+
+
+#cards-container:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+.card-hover{
+  border: none;
+}
+
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+.card-price {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fbe9ef; /* light pinkish background from #c00745 */
+}
+.contact-section {
+  padding: 80px 0;
+  background-color: #fbe9ef; /* softened version of #c00745 */
+}
+.section-header {
+  text-align: center;
+  background-color: #f2d3df;
+  padding: 30px;
+  border-radius: 10px;
+  color: #c00745;
+  margin-bottom: 40px;
+}
+.contact-form {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+.form-control {
+  background-color: #fff9fb;
+  border: 1px solid #e6b8c6;
+  border-radius: 8px;
+}
+.form-control:focus {
+  border-color: #c00745;
+  box-shadow: 0 0 0 0.1rem rgba(192, 7, 69, 0.25);
+}
+.btn-primary {
+  background-color: #c00745;
+  border: none;
+  border-radius: 8px;
+}
+.btn-primary:hover {
+  background-color: #a0053a;
+}
+
+/* #login-container{
+  width: 400px;
+  padding: 15px;
+  position: absolute;
+  right: 0;
+  top: 20%;
+} */
+
+/* Define the animation */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%); /* start outside the right */
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  100% {
+    transform: translateX(0); /* normal position */
+    opacity: 1;
+  }
+}
+
+/* Apply when container becomes visible */
+#login-container.show {
+  animation: slideInFromRight 0.5s ease forwards;
+}
+
+.user-badge{
+  display: none;
+}
